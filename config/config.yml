@@ -1,0 +1,13 @@
+defaults: &defaults
+  app_name: "Subdomain"
+  domain: "http://subdomain.dev"
+  host: "subdomain.dev"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
